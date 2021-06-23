@@ -111,7 +111,25 @@ main {
   margin-bottom: .5em;
 }
 
+.tag-novidade {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  display: inline-block;
+  margin-right: 1em;
+}
 
+.novidade::before {
+  content: "Novidade!";
+  display: inline-block;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  display: inline-block;
+  margin-right: 1em;
+}
 
 
 /* --- Principal >> Últimas postagens --- */
