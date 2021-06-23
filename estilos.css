@@ -157,6 +157,16 @@ main {
   text-align: center;
 }
 
+#tags :hover {
+  cursor: pointer;
+}
+
+#tags :active {
+  position: relative;
+  right: 2px;
+  bottom: 2px;
+}
+
 #tags h1 {
   margin-bottom: 1em;
   text-shadow: 2px 2px #000;
